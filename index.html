@@ -21,7 +21,9 @@
           padding-top:7%;
         }
         #pic img{
-          border:13px black double;
+          margin-top:20px;
+          border:20px rgba(255,255,255,0.3) double;
+          border-radius:0.5% 1.5%;
         }
         #handles{
           font-size:20px;
@@ -33,14 +35,17 @@
         }
         .card{
           padding:0px;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
         p{
           text-align: justify;
           padding:5%;
         }
+        .pic a{
+          color:#fff;
+        }
         .card-title{
-          background:black;
+          background:rgb(0,0,50);
           opacity: 0.90;
           color:#fff;
           display:block;
@@ -49,29 +54,36 @@
         ul{
           list-style-type: circle;
         }
+        header{
+          background-color: rgb(0,0,50);
+          color:#fff;
+        }
     </style>
   </head>
   <body class="container-fluid">
-    <div id="introduction">
-      <div class="col-md-10" id="description">
-        <span class="big text-responsive">I am</span>
-        <span class="big text-responsive w3-animate-fading" id="intro">Naren Bakshi</span>
-        <div id="handles">
-          <a class="btn btn-default" href="https://www.linkedin.com/in/naren-bakshi">Linkedin</a>
-          <a class="btn btn-default" href="https://twitter.com/narenbakshi97">Twitter</a>
-          <a class="btn btn-default" href="https://github.com/narenbakshi97/">Github</a>
-          <a class="btn btn-default" href="https://www.kaggle.com/nrb1997">Kaggle</a>
-          <a class="btn btn-default" href="https://medium.com/@narenbakshi">Medium</a>
+    <header class="row">
+      <div id="header">
+        <div class="col-md-10" id="description">
+          <span class="big text-responsive">I am</span>
+          <span class="big text-responsive w3-animate-fading" id="intro">Naren Bakshi</span>
+          <div id="handles">
+            <a class="btn btn-default" href="https://www.linkedin.com/in/naren-bakshi">Linkedin</a>
+            <a class="btn btn-default" href="https://twitter.com/narenbakshi97">Twitter</a>
+            <a class="btn btn-default" href="https://github.com/narenbakshi97/">Github</a>
+            <a class="btn btn-default" href="https://www.kaggle.com/nrb1997">Kaggle</a>
+            <a class="btn btn-default" href="https://medium.com/@narenbakshi">Medium</a>
+          </div>
+        </div>
+        <div class="col-md-2" id="contact">
+          <div id="pic">
+            <img class="img-responsive" src="images/naren.jpg" alt="Naren's photo">
+            <a href="mailto:naren.bakshi@rutgers.edu" class="btn">naren.bakshi@rutgers.edu</a>
+            <div class="text-center"><a href="https://twitter.com/intent/tweet?screen_name=narenbakshi97&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @narenbakshi97</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+          </div>
         </div>
       </div>
-      <div class="col-md-2" id="contact">
-        <div id="pic">
-          <img class="img-responsive" src="images/naren_photo.jpg" alt="Naren's photo">
-          <a href="mailto:naren.bakshi@rutgers.edu" class="btn btn-link">naren.bakshi@rutgers.edu</a>
-          <div class="text-center"><a href="https://twitter.com/intent/tweet?screen_name=narenbakshi97&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @narenbakshi97</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-        </div>
-      </div>
-    </div>
+    </header>
+
     <div class="col-md-12">
       <hr>
     </div>
