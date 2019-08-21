@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script type="text/javascript" src="js/artyom.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Naren Bakshi</title>
+    <style>
+        .big{
+          font-size: 50px;
+        }
+        #intro{
+          background-color: navy;
+          border-radius: 10px;
+          padding:1% 3%;
+          color:#fff;
+        }
+        #description{
+          padding-top:7%;
+        }
+        #pic img{
+          border:13px black double;
+        }
+        #handles{
+          font-size:20px;
+          margin-top:50px;
+        }
+         #introduction a{
+          color: navy;
+          padding:0 10px;
+        }
+        .card{
+          padding:0px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        p{
+          text-align: justify;
+          padding:5%;
+        }
+        .card-title{
+          background:black;
+          opacity: 0.90;
+          color:#fff;
+          display:block;
+          padding:4px;
+        }
+        ul{
+          list-style-type: circle;
+        }
+    </style>
+  </head>
+  <body class="container-fluid">
+    <div id="introduction">
+      <div class="col-md-10" id="description">
+        <span class="big text-responsive">I am</span>
+        <span class="big text-responsive w3-animate-fading" id="intro">Naren Bakshi</span>
+        <div id="handles">
+          <a class="btn btn-default" href="https://www.linkedin.com/in/naren-bakshi">Linkedin</a>
+          <a class="btn btn-default" href="https://twitter.com/narenbakshi97">Twitter</a>
+          <a class="btn btn-default" href="https://github.com/narenbakshi97/">Github</a>
+          <a class="btn btn-default" href="https://www.kaggle.com/nrb1997">Kaggle</a>
+          <a class="btn btn-default" href="https://medium.com/@narenbakshi">Medium</a>
+        </div>
+      </div>
+      <div class="col-md-2" id="contact">
+        <div id="pic">
+          <img class="img-responsive" src="H:/DS%20MS/naren_photo.jpg" alt="Naren's photo">
+          <a href="mailto:naren.bakshi@rutgers.edu" class="btn btn-link">naren.bakshi@rutgers.edu</a>
+          <div class="text-center"><a href="https://twitter.com/intent/tweet?screen_name=narenbakshi97&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @narenbakshi97</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <hr>
+    </div>
+    <div id="work col-md-12">
+      <div class="col-md-8" id="main-part">
+        <div class="col-md-12" id="about">
+          <h3>ABOUT</h3>
+          <ul class="list" list-style-type="none">
+          <li>Lives in New Brunswick, NJ</li>
+          <li>Currently a Master of Science Data Science (Stats track) student at Rutgers University, New Brunswick, NJ, USA.</li>
+          <li>Did Bachelore of Computer Engineering from LDRP-ITR, Kadi Sarva Vishwavidyalaya University, Gandhinagar, Gujarat, India.</li>
+        </ul>
+        <hr>
+        </div>
+        <div class="col-md-12" id="projects">
+          <h3>PROJECTS</h3>
+          <div class="card project1 col-md-5 ">
+            <div class='card-title'>
+            <h4 class="h3 text-center"><b>SHOPPY BOT</b></h4>
+          </div>
+          <div class="text-center">
+               <canvas id="canvas" width="400" height="400"></canvas>
+          </div>
+            <p>This project was made as my Minor project in my last year of the college with my classmate. This voice enabled BOT helps you to locate items in the mall, performs basic cart operations and notifies the mall staff to get your list ready at counter while you are spending your time in clothing or your favourite section.</p>
+            <div class="text-center"><button onclick="speaks()" class='btn btn-default'>SPEAK SHOPPY</button>
+            <a class="btn btn-default" href="https://github.com/narenbakshi97/Shopping-Mall-BOT">REPOSITORY LINK</a></div>
+            <p>It works on Java, JavaScript, and Artypm.js (For Speech input and output)</p>
+         </div>
+
+           <div class="card project2 col-md-5 col-md-offset-2">
+             <div class='card-title'>
+             <h4 class="h3 text-center"><b>BIRD SIGHTING TRACKER</b></h4>
+           </div>
+           <div class="">
+             <img class="img-responsive" src="images/bird2.jpg" alt="Screenshot of my final project showing a map with the sighting of sparrows">
+           </div>
+             <p>This was my final project for Edx's CS50 by Harvard and extended it as my college's major project. Users report the sighting of the bird with the location. This is basically a visual presentation of the gathered data shown on Google maps. It also shows the chances of the sightings.</p>
+             <div class="text-center"><a class="btn btn-default" href="https://www.youtube.com/watch?v=OEgsgXFBL0k">Youtube Link</a>&nbsp;<a class="btn btn-default" href="https://github.com/narenbakshi97/bird-sighting-tracker">REPOSITORY LINK</a></div>
+             <p>It works on Python Flask, Front-End,Google maps, SQL Alchemy</p>
+          </div>
+
+        </div>
+      </div>
+      <div id="recent" class="col-md-3 col-md-offset-1">
+        <h3 class="text-center">RECENTS</h3>
+        <div class="col-md-12">
+          <a class="twitter-timeline" data-width="300" data-height="450" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/narenbakshi97?ref_src=twsrc%5Etfw"> by narenbakshi97</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="col-md-12">
+          <h4><b>LAST POST</b></h4>
+          <a class="link" href="https://medium.com/@narenbakshi/object-oriented-programming-class-at-hogwarts-3c430e769198">Object oriented programming class at Hogwarts</a>
+        </div>
+        <div class="col-md-12">
+          <h4><b>CURRENTLY READING</b></h4>
+          <a class=link href="https://www.goodreads.com/book/show/36294919-ardhi-sadini-vachanyatra-1">ARDHI SADINI VACHANYATRA-1</a>
+        </div>
+
+        <div class="col-md-12">
+          <h4><b>COURSE TAKING</b></h4>
+          <a href="https://wqu.org/programs/data-science">World Quant University Data Science</a>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+  <script type="text/javascript">
+    let intro = ["Naren Bakshi","a Human","an aspiring data scientist","a Nature Lover","a Musician"];
+    let intro_section = document.getElementById("intro");
+    let index = 0;
+    let a = setInterval(function(){
+      index = (index + 1)%intro.length;
+      intro_section.innerHTML = intro[index];
+    },3000);
+
+    function speaks(){
+      speak = true;
+      var msg = new SpeechSynthesisUtterance('Hello World, I am Shoppy, your personal shopping assistant. Note that I am just a model and nit the actual one. Visit the Github repository link to know more about this project. Thank you!');
+window.speechSynthesis.speak(msg);
+      x = setTimeout(function(){
+        console.log("Waiting while speaking");
+        speak = false;
+      }, 12000);
+    }
+  </script>
+  <script src="js/init.js"></script>
+	<script src="js/bag.js"></script>
+</html>
