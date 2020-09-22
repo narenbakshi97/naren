@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/6fd261214c.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="stylesheet/style.css">
     <meta charset="utf-8">
@@ -11,22 +12,22 @@
   <body class="container-fluid">
     <header class="row">
       <div id="header">
-        <div class="col-md-10" id="description">
-          <span class="big text-responsive">I am</span>
-          <span class="big text-responsive w3-animate-fading" id="intro">Naren Bakshi</span>
-          <div id="handles">
-            <a class="btn btn-default" href="https://www.linkedin.com/in/naren-bakshi">Linkedin</a>
-            <a class="btn btn-default" href="https://twitter.com/narenbakshi97">Twitter</a>
-            <a class="btn btn-default" href="https://github.com/narenbakshi97/">Github</a>
-            <a class="btn btn-default" href="https://medium.com/@narenbakshi">Medium</a>
-          </div>
+        <div class="col-md-12 text-center" id="description">
+        <div class="text-center">
+          <img class="img-resposive profilepic" src="images/naren.jpg" alt="Naren's photo">
         </div>
-        <div class="col-md-2" id="contact">
-          <div id="pic">
-            <img class="img-responsive" src="images/naren.jpg" alt="Naren's photo">
-            <a href="mailto:narenbakshi97@gmail.com" class="btn">narenbakshi97@gmail.com</a>
-            <div class="text-center"><a href="https://twitter.com/intent/tweet?screen_name=narenbakshi97&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @narenbakshi97</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+
+          <div class="text-center"><span class="big text-responsive w3-animate-fading" id="intro">I am Naren Bakshi</span></div>
+          <div id="handles">
+            <a href="https://www.linkedin.com/in/naren-bakshi"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/narenbakshi97"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/narenbakshi97/"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://medium.com/@narenbakshi"><i class="fa fa-medium" aria-hidden="true"></i></a>
           </div>
+
+          <a href="mailto:narenbakshi97@gmail.com" class="btn">narenbakshi97@gmail.com</a>
+          <div class="text-center"><a href="https://twitter.com/intent/tweet?screen_name=narenbakshi97&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @narenbakshi97</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
         </div>
       </div>
     </header>
@@ -60,12 +61,12 @@
         <br><br>
         <div class="col-md-12">
           <h4><b>CURRENTLY READING</b></h4>
-          <a class="link" href="https://www.goodreads.com/book/show/27276428-the-gene">THE GENE</a> <i>10/05/2019</i>
+          <a class="link" href="https://www.goodreads.com/book/show/8574712-the-tell-tale-brain">THE Tell Tale Brain</a> <i>10/05/2019</i>
         </div>
         <br><br>
         <div class="col-md-12">
-          <h4><b>COURSE TAKING</b></h4>
-          <a class="link" href="https://www.bloomberg.com/professional/product/bloomberg-market-concepts/?bbgsum-page=DG-WS-PROF-AUD-UNI&mpam-page=21140">Bloomberg Market Concepts</a> <i>10/01/2019</i>
+          <h4><b>COURSE TAKEN</b></h4>
+          <a class="link" href="https://www.linkedin.com/learning/agile-testing-2/uplevel-with-agile-testing?u=76115650">Agile Testing</a> <i>22/07/2020</i>
         </div>
         <br><br>
         <div class="col-md-12">
@@ -78,24 +79,12 @@
     </div>
   </body>
   <script type="text/javascript">
-    let intro = ["Naren Bakshi","a Human","an aspiring data scientist","a Nature Lover","a Musician"];
+    let intro = ["I am Naren Bakshi","a Human","a Coder","a Nature Lover","a Musician"];
     let intro_section = document.getElementById("intro");
     let index = 0;
     let a = setInterval(function(){
       index = (index + 1)%intro.length;
       intro_section.innerHTML = intro[index];
     },3000);
-
-    function speaks(){
-      speak = true;
-      var msg = new SpeechSynthesisUtterance('Hello World, I am Shoppy, your personal shopping assistant. Note that I am just a model and nit the actual one. Visit the Github repository link to know more about this project. Thank you!');
-window.speechSynthesis.speak(msg);
-      x = setTimeout(function(){
-        console.log("Waiting while speaking");
-        speak = false;
-      }, 12000);
-    }
   </script>
-  <script src="js/init.js"></script>
-	<script src="js/bag.js"></script>
 </html>

@@ -1,23 +1,27 @@
 .big{
-  font-size: 50px;
+  font-size: 30px;
 }
 #intro{
-  background-color: navy;
   border-radius: 10px;
-  padding:1% 3%;
+  padding:1%;
   color:#fff;
 }
 #description{
   padding-top:7%;
 }
-#pic img{
+.profilepic{
+  max-height:320px;
   margin-top:20px;
   border:20px rgba(255,255,255,0.3) double;
   border-radius:0.5% 1.5%;
 }
 #handles{
   font-size:20px;
-  margin-top:50px;
+  margin-top:35px;
+}
+#handles a{
+  margin-right:50px;
+  font-size: 30px;
 }
  #introduction a{
   color: navy;
