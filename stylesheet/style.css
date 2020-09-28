@@ -10,7 +10,7 @@
   padding-top:7%;
 }
 .profilepic{
-  max-height:320px;
+  max-height:250px;
   margin-top:20px;
   border:20px rgba(255,255,255,0.3) double;
   border-radius:0.5% 1.5%;
@@ -20,7 +20,7 @@
   margin-top:35px;
 }
 #handles a{
-  margin-right:50px;
+  margin:0 12px;
   font-size: 30px;
 }
  #introduction a{
@@ -56,6 +56,11 @@ header{
 .link{
   text-decoration:underline;
   color: rgb(0,0,80);
+}
+
+button{
+  color: navy;
+  background: white;
 }
 
 /* scrollbar code starts */
